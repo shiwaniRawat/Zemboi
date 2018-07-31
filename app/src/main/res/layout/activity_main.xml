@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gb.zemboi.MainActivity"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/dripping_blood_overlay_with_drops_splashes_png_transparent_background_240">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Locate The Zombi"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:textColor="#000"
+    android:textStyle="bold"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/halloween_zombie_png_picture"
+        android:minHeight="342px">
+
+        <Button
+            android:id="@+id/click_attack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20mm"
+            android:layout_marginTop="360dp"
+           android:textSize="20sp"
+            android:text="Attack"
+            android:textColor="#e70c0c"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
